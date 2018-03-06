@@ -1,0 +1,7 @@
+
+SQL injection is one of the most common web hacking techniques that might destroy your database via web page input.
+From: w3schools
+
+Site : https://web.ctflearn.com/web4/
+
+Input: ' OR '1' ='1 
