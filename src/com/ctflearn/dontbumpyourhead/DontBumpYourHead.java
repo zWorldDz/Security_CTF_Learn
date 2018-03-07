@@ -10,16 +10,19 @@ public class DontBumpYourHead {
 
 	public static void main(String[] args) throws IOException {
 		 
-		URL hackURL = new URL("https://ctflearn.com/header.php");
+	//URL
+	URL hackURL = new URL("https://ctflearn.com/header.php");
+	//Open URL
         URLConnection conn = hackURL.openConnection();
-        
+        //Change User Agent
         conn.setRequestProperty("User-Agent", "Sup3rS3cr3tAg3nt");
+	//Change Referer
         conn.setRequestProperty("referer","awesomesauce.com");
         
-		BufferedReader br = new BufferedReader(
+	BufferedReader br = new BufferedReader(
                 new InputStreamReader(conn.getInputStream()));
 		
-		String inputLine;
+	String inputLine;
         while ((inputLine = br.readLine()) != null) {
             System.out.println(" ");
             System.out.println(inputLine);
