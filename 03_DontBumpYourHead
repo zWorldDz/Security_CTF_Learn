@@ -1,0 +1,8 @@
+Try bypass this site
+https://ctflearn.com/header.php
+
+Using
+1. Java 1.8
+2. Change User-Agent
+3. Change Referer
+4. Get the Flag
